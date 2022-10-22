@@ -1,0 +1,10 @@
+﻿GroMoreSDK/.idea
+GroMoreSDK/Library
+GroMoreSDK/Logs
+GroMoreSDK/obj
+GroMoreSDK/Packages
+GroMoreSDK/UserSettings
+GroMoreSDK/Temp
+GroMoreSDK/ProjectSettings
+*.csproj
+GroMoreSDK/GroMoreSDK.sln

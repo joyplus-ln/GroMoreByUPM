@@ -1,0 +1,299 @@
+{
+    "PrimaryLevelFunctionsEntities": [
+        {
+            "Id": 1,
+            "NameId": "basic_function",
+            "CnContent": "基础功能",
+            "ZnContent": "Basic function",
+            "SecondLevelFunctionsEntities": [
+                {
+                    "Id": 1,
+                    "NameId": "native_ad",
+                    "CnContent": "原生广告(NativeAd)",
+                    "ZnContent": "Native Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "native_render",
+                            "CnContent": "加载并展示自渲染",
+                            "ZnContent": "Render",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "native_express",
+                            "CnContent": "加载并展示模板",
+                            "ZnContent": "Express",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 2,
+                    "NameId": "reward_video_ad",
+                    "CnContent": "激励视频广告(RewardAd)",
+                    "ZnContent": "RewardVideo Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "reward_express_v",
+                            "CnContent": "加载模板竖屏",
+                            "ZnContent": "load express reward vertical",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "reward_express_h",
+                            "CnContent": "加载模板横屏",
+                            "ZnContent": "load express reward horizontal",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 3,
+                            "NameId": "reward_normal_v",
+                            "CnContent": "加载普通竖屏",
+                            "ZnContent": "load express reward vertical",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 4,
+                            "NameId": "reward_show",
+                            "CnContent": "展示激励视频",
+                            "ZnContent": "show reward Ad",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 3,
+                    "NameId": "fullscreen_video_ad",
+                    "CnContent": "全屏视频广告(FuscreenAd)",
+                    "ZnContent": "Fullscreen Video Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "fullscreen_express_v",
+                            "CnContent": "加载模板竖屏",
+                            "ZnContent": "load express reward vertical",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "fullscreen_express_h",
+                            "CnContent": "加载模板横屏",
+                            "ZnContent": "load express reward horizontal",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 3,
+                            "NameId": "fullscreen_normal_v",
+                            "CnContent": "加载普通竖屏",
+                            "ZnContent": "load normal reward vertical",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 4,
+                            "NameId": "fullscreen_show",
+                            "CnContent": "展示全屏视频",
+                            "ZnContent": "show reward Ad",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 4,
+                    "NameId": "interstitial_ad",
+                    "CnContent": "插屏广告(InterstitialAd)",
+                    "ZnContent": "Interstitial Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "interstitial_load",
+                            "CnContent": "加载",
+                            "ZnContent": "load",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "interstitial_show",
+                            "CnContent": "展示",
+                            "ZnContent": "show",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 5,
+                    "NameId": "splash_ad",
+                    "CnContent": "开屏广告(SplashAd)",
+                    "ZnContent": "Splash Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "splash_normal_load",
+                            "CnContent": "加载普通开屏",
+                            "ZnContent": "load normal splash ad",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "splash_express_load",
+                            "CnContent": "加载模板开屏(IfCan)",
+                            "ZnContent": "load express splash ad",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 3,
+                            "NameId": "splash_show",
+                            "CnContent": "展示开屏",
+                            "ZnContent": "splash show",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 6,
+                    "NameId": "banner_ad",
+                    "CnContent": "横幅广告(BannerAd)",
+                    "ZnContent": "Payment Function",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "banner_load_show",
+                            "CnContent": "加载和展示",
+                            "ZnContent": "load and show banner",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 7,
+                    "NameId": "interstitialFull_ad",
+                    "CnContent": "插全屏广告(InterstitialFullAd)",
+                    "ZnContent": "InterstitialFull Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "interstitialFull_load",
+                            "CnContent": "加载iOS-946968708/Android-102068464",
+                            "ZnContent": "load",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "interstitialFull_load_2",
+                            "CnContent": "加载iOS-947028072/Android-945864901",
+                            "ZnContent": "load",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 3,
+                            "NameId": "interstitialFull_load_3",
+                            "CnContent": "加载iOS-946961656/Android-945854486",
+                            "ZnContent": "load",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 4,
+                            "NameId": "interstitialFull_show",
+                            "CnContent": "展示",
+                            "ZnContent": "show",
+                            "ItemType": 1
+                        }
+                    ]
+                },
+                {
+                    "Id": 8,
+                    "NameId": "draw_ad",
+                    "CnContent": "draw广告(DrawAd)",
+                    "ZnContent": "Draw Ad",
+                    "IsExtend": false,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "draw_show",
+                            "CnContent": "加载并展示",
+                            "ZnContent": "loadAndShow",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "draw_all_Close",
+                            "CnContent": "全部移除",
+                            "ZnContent": "removeAll",
+                            "ItemType": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Id": 2,
+            "NameId": "uitls_tool",
+            "CnContent": "辅助工具",
+            "ZnContent": "Uitls Tool",
+            "SecondLevelFunctionsEntities": [
+                {
+                    "Id": 1,
+                    "NameId": "uitls_tool",
+                    "CnContent": "辅助工具",
+                    "ZnContent": "Uitls Tool",
+                    "IsExtend": true,
+                    "ThirdLevelFunctionsEntities": [
+                        {
+                            "Id": 1,
+                            "NameId": "visiable_test_tool",
+                            "CnContent": "可视化测试工具",
+                            "ZnContent": "Visiable Test Tool",
+                            "ItemType": 1,
+                            "Platform": 1
+                        },
+                        {
+                            "Id": 2,
+                            "NameId": "set_userSegment",
+                            "CnContent": "设置流量分组信息",
+                            "ZnContent": "set userSegment",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 3,
+                            "NameId": "set_theme_normal",
+                            "CnContent": "普通主题模式",
+                            "ZnContent": "set themeMode",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 4,
+                            "NameId": "set_theme_night",
+                            "CnContent": "夜间主题模式",
+                            "ZnContent": "set themeMode",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 5,
+                            "NameId": "set_privacy_config",
+                            "CnContent": "设置隐私相关配置",
+                            "ZnContent": "set privacy_config",
+                            "ItemType": 1
+                        },
+                        {
+                            "Id": 6,
+                            "NameId": "get_system_location_privilege",
+                            "CnContent": "询问获得系统地理位置权限",
+                            "ZnContent": "get system location privilege",
+                            "ItemType": 1,
+                            "Platform": 2
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

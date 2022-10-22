@@ -1,0 +1,15 @@
+{
+  "name": "com.joyplus.gromore",
+  "version": "3.5.1.5",
+  "displayName": "gromore",
+  "description": "Unity\u8d44\u6e90\u7ba1\u7406\u63d2\u4ef6",
+  "keywords": [
+    "Script"
+  ],
+  "author": {
+    "name": "joyplus",
+    "email": "517752548@qq.com",
+    "url": "https://www.unity3d.com"
+  },
+  "category": "Libraries"
+}
